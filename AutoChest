@@ -715,6 +715,6 @@ game.StarterGui:SetCore(
     "SendNotification",
     {
         Title = "Chỉ treo 2-3 tiếng",
-        Text = "Tránh Reset 🎮",
+        Text = "Tránh Reset Beli",
         Duration = 999
     })
