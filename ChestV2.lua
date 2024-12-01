@@ -48,7 +48,7 @@ TextLabelfps.Position = UDim2.new(0.3, 0, 0.25, 0)  -- Căn chỉnh vị trí ch
 TextLabelfps.Size = UDim2.new(0, 100, 0, 20)  -- Giảm kích thước TextLabel
 TextLabelfps.Font = Enum.Font.GothamSemibold
 TextLabelfps.Text = "FPS:zzz"
-TextLabelfps.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabelfps.TextColor3 = Color3.fromRGB(0, 0, 255)
 TextLabelfps.TextSize = 14.000
 TextLabelfps.TextXAlignment = Enum.TextXAlignment.Left
 
