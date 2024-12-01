@@ -42,20 +42,20 @@ Strokefps.Transparency = 0
 -- Căn chỉnh lại chữ "FPS"
 TextLabelfps.Name = "TextLabelfps"
 TextLabelfps.Parent = Framefps
-TextLabelfps.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+TextLabelfps.BackgroundColor3 = Color3.fromRGB(173, 216, 230)
 TextLabelfps.BackgroundTransparency = 1.000
 TextLabelfps.Position = UDim2.new(0.3, 0, 0.25, 0)  -- Căn chỉnh vị trí cho gọn
 TextLabelfps.Size = UDim2.new(0, 100, 0, 20)  -- Giảm kích thước TextLabel
 TextLabelfps.Font = Enum.Font.GothamSemibold
 TextLabelfps.Text = "FPS:zzz"
-TextLabelfps.TextColor3 = Color3.fromRGB(0, 0, 255)
+TextLabelfps.TextColor3 = Color3.fromRGB(173, 216, 230)
 TextLabelfps.TextSize = 14.000
 TextLabelfps.TextXAlignment = Enum.TextXAlignment.Left
 
 -- Căn chỉnh lại hình ảnh biểu tượng "FPS"
 ImageLabelfps.Name = "ImageLabelfps"
 ImageLabelfps.Parent = Framefps
-ImageLabelfps.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+ImageLabelfps.BackgroundColor3 = Color3.fromRGB(173, 216, 230)
 ImageLabelfps.BackgroundTransparency = 1.000
 ImageLabelfps.Position = UDim2.new(0.5, 0, 0.5, 0)  -- Căn lại vị trí biểu tượng cho hợp lý
 ImageLabelfps.Size = UDim2.new(0, 25, 0, 25)  -- Giảm kích thước biểu tượng
