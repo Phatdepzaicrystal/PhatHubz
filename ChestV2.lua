@@ -1,3 +1,6 @@
+if not game:IsLoaded() then game.Loaded:Wait() end
+local fask = task
+
 if game:GetService("Players").LocalPlayer.PlayerGui.Main:FindFirstChild("ChooseTeam") then
     repeat task.wait()
         if game:GetService("Players").LocalPlayer.PlayerGui:WaitForChild("Main").ChooseTeam.Visible == true then
