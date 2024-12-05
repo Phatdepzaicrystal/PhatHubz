@@ -122,7 +122,7 @@ local function CreateMainGui()
     Converted["_MainFrame"].Name = "MainFrame"
     Converted["_MainFrame"].Size = UDim2.new(0, 350, 0, 300)
     Converted["_MainFrame"].Position = UDim2.new(0, SCREEN_WIDTH - 400, 0, 50)
-    Converted["_MainFrame"].BackgroundColor3 = Color3.fromRGB(35, 35, 40)
+    Converted["_MainFrame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     Converted["_MainFrame"].Parent = ScreenGui
     
     CreateDropShadow(Converted["_MainFrame"])
@@ -245,7 +245,7 @@ local function CreateMainGui()
     MiniUI.Name = "MiniUI"
     MiniUI.Size = UDim2.new(0, 50, 0, 50)
     MiniUI.Position = UDim2.new(0, SCREEN_WIDTH - 100, 0, 10)
-    MiniUI.BackgroundColor3 = Color3.fromRGB(45, 45, 50)
+    MiniUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     MiniUI.Visible = false
     MiniUI.Parent = ScreenGui
     CreateSmoothCorner(MiniUI, 8)
@@ -255,7 +255,7 @@ local function CreateMainGui()
     RestoreButton.Size = UDim2.new(1.2, 0, 1.2, 0)
     RestoreButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     RestoreButton.Text = "Phat"
-    RestoreButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+    RestoreButton.TextColor3 = Color3.fromRGB(0, 0, 0)
     RestoreButton.TextSize = 16
     RestoreButton.Parent = MiniUI
     CreateSmoothCorner(RestoreButton)
