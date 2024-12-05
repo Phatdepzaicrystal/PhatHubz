@@ -148,7 +148,7 @@ local function CreateMainGui()
     TitleText.Position = UDim2.new(0, 40, 0, 0)
     TitleText.BackgroundTransparency = 1
     TitleText.Font = Enum.Font.GothamBold
-    TitleText.Text = "Cáº¯t Tai Hub Auto Chest"
+    TitleText.Text = "Phat Hub Auto Chest"
     TitleText.TextColor3 = Color3.fromRGB(255, 255, 255)
     TitleText.TextSize = 16
     TitleText.TextXAlignment = Enum.TextXAlignment.Left
