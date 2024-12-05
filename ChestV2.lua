@@ -254,7 +254,7 @@ local function CreateMainGui()
     local RestoreButton = Instance.new("TextButton")
     RestoreButton.Size = UDim2.new(1.2, 0, 1.2, 0)
     RestoreButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-    RestoreButton.Text = "Open"
+    RestoreButton.Text = "Phat"
     RestoreButton.TextColor3 = Color3.fromRGB(255, 255, 255)
     RestoreButton.TextSize = 16
     RestoreButton.Parent = MiniUI
