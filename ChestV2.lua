@@ -314,7 +314,7 @@ local function UpdateTime()
     local Hour = math.floor(GameTime/(60^2))%24
     local Minute = math.floor(GameTime/(60^1))%60
     local Second = math.floor(GameTime/(60^0))%60
-    Converted["_TimeLabel"].Text = string.format("â° Time: %02d:%02d:%02d", Hour, Minute, Second)
+    Converted["_TimeLabel"].Text = string.format("Time: %02d:%02d:%02d", Hour, Minute, Second)
 end
 
 local function UpdateStats()
@@ -334,9 +334,9 @@ local function UpdateStats()
         end
     end
     
-    Converted["_BeliLabel"].Text = string.format("ðŸ’° Beli: %s", FormatNumber(beli))
-    Converted["_EarnedBeliLabel"].Text = string.format("ðŸ“ˆ Earned: %s", FormatNumber(earnedBeli))
-    Converted["_ChestLabel"].Text = string.format("ðŸŽ Chests: %d", chestCount)
+    Converted["_BeliLabel"].Text = string.format("Beli: %s", FormatNumber(beli))
+    Converted["_EarnedBeliLabel"].Text = string.format("Earned: %s", FormatNumber(earnedBeli))
+    Converted["_ChestLabel"].Text = string.format("Chests: %d", chestCount)
 end
 
 local function InitializeScript()
@@ -355,7 +355,7 @@ Converted["_StartButton"].MouseButton1Click:Connect(function()
     Converted["_StopButton"].MouseButton1Click:Connect(function()
         getgenv().config.ChestFarm["Start Farm Chest"] = false
         game:GetService("StarterGui"):SetCore("SendNotification", {
-            Title = "Cáº¯t Tai  Hub",
+            Title = "Phat Hub",
             Text = "Auto Chest Stopped!",
             Duration = 2
         })
